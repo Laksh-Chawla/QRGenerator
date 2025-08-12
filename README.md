@@ -16,10 +16,10 @@ A simple Python-based QR code generator that creates and saves QR codes as PNG f
 ## Installation
 
 1. Clone this repository or download the source code.
-2. Install the required dependencies:
+2. Install the required dependencies using the provided requirements file:
 
    ```powershell
-   pip install qrcode[pil]
+   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -37,7 +37,7 @@ You will be prompted to enter:
 
 ## Example
 
-```shell
+```powershell
 Enter the data to encode in the QR code: https://example.com
 Enter the filename to save the QR code (e.g., qr_code.png): my_qr.png
 ```
